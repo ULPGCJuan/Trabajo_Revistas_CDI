@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ### 1️⃣ Construcción del dataset
 
 ```bash
-python src/01_build_dataset.py
+python src/build_dataset.py
 ```
 
 Genera:
@@ -97,7 +97,7 @@ Genera:
 ### 2️⃣ Aproximación clásica (Sklearn)
 
 ```bash
-python src/02_classical_sklearn.py
+python src/classical_sklearn.py
 ```
 
 Modelos entrenados:
@@ -117,7 +117,7 @@ Resultados:
 ### 3️⃣ Aproximación conexionista (PyTorch)
 
 ```bash
-python src/03_neural_pytorch.py
+python src/neural_pytorch.py
 ```
 
 Modelo:
